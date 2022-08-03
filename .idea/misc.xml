@@ -7,6 +7,8 @@
         <entry key="app/src/main/res/font/chalkboard.xml" value="0.2532714225411566" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.2341485507246377" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19605865478515627" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.195" />
       </map>
     </option>
   </component>
