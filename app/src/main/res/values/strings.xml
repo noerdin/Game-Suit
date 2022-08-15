@@ -3,4 +3,16 @@
     <string name="text_player">Player</string>
     <string name="text_com">COM</string>
     <string name="text_pemain_1">Pemain 1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_bermain_suit_melawan_sesama_pemain">Bermain suit melawan sesama pemain.</string>
+    <string name="text_bermain_suit_melawan_komputer">Bermain suit melawan komputer.</string>
+    <string name="text_tuliskan_namamu_di_bawah">Tuliskan namamu di bawah</string>
+    <string name="text_pilih_lawanmu">PILIH LAWANMU</string>
+    <string name="text_please_enter_your_name">Please enter your name</string>
+    <string name="text_vs_pemain">%s vs Pemain</string>
+    <string name="text_vs_cpu">%s vs CPU</string>
+    <string name="img1">img1</string>
+    <string name="text_hasil_permainan">Hasil Permainan</string>
+    <string name="text_main_lagi">Main Lagi</string>
+    <string name="text_kembali_ke_menu">Kembali Ke Menu</string>
 </resources>

@@ -1,23 +1,18 @@
 package com.example.gamesuit
 
-import android.widget.ImageView
-
 open class Player {
-    private var pilihan = Suit()
+    open var pilihan: SuitType? = null
+    open var name: String? = null
+}
 
-    class Suit {
+class MainPlayer(override var name: String?) : Player()
 
+class Bot : Player() {
+    override var name: String? = "CPU"
+
+    fun randomPilihan(): SuitType {
+        return SuitType.values().random()
     }
-    //set pilihan
-    //fun get pilihan : pilihan
-}
-
-class MainPlayer : Player() {
-
-}
-
-class Bot {
-    //random
 }
 
 

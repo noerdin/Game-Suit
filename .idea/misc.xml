@@ -3,11 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.33645833333333336" />
         <entry key="app/src/main/res/drawable/bg_rounded.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/btn_rounded1.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/btn_rounded2.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/indicator_active.xml" value="0.2585" />
+        <entry key="app/src/main/res/drawable/indicator_inactive.xml" value="0.238" />
+        <entry key="app/src/main/res/drawable/indicator_next.xml" value="0.2865" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.266" />
         <entry key="app/src/main/res/font/chalkboard.xml" value="0.2532714225411566" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.2341485507246377" />
+        <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19605865478515627" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_first_landing_page.xml" value="0.22756119673617406" />
+        <entry key="app/src/main/res/layout/fragment_game.xml" value="0.18540344514959203" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21169537624660018" />
+        <entry key="app/src/main/res/layout/fragment_landing_page.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_landing_page1.xml" value="0.18449682683590207" />
+        <entry key="app/src/main/res/layout/fragment_second_landing_page.xml" value="0.231722958529286" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_third_landing_page.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_view_pager.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/indicator_active.xml" value="0.18449682683590207" />
+        <entry key="app/src/main/res/layout/layout_dialog.xml" value="0.18540344514959203" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.195" />
       </map>
     </option>

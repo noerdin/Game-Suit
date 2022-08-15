@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:id="@+id/clMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="251dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/chalkboard"
+        android:gravity="center"
+        android:text="@string/text_pilih_lawanmu"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivVsPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="118dp"
+        android:src="@drawable/landing_page1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvVsPemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chalkboard"
+        android:textColor="@color/black"
+        android:text="@string/text_vs_pemain"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivVsPlayer"
+        tools:layout_editor_absoluteX="315dp" />
+
+    <ImageView
+        android:id="@+id/ivVsCom"
+        android:layout_width="176dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="118dp"
+        android:src="@drawable/landing_page2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVsPemain" />
+
+    <TextView
+        android:id="@+id/tvVsCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="229dp"
+        android:fontFamily="@font/chalkboard"
+        android:textColor="@color/black"
+        android:text="@string/text_vs_cpu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivVsCom"
+        tools:layout_editor_absoluteX="205dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
